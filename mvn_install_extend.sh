@@ -1,4 +1,5 @@
 #!/bin/bash
+#主要是为了解决mvn本地打包后，mvn本地仓库留有太多的jar，占用太多的本地磁盘
 
 #mvn对应的本地库根目录
 mvn_home='/Users/tanzhenhua/.m2/repository'
